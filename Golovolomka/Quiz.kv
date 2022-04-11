@@ -1,0 +1,45 @@
+MainWidget:
+
+<MainWidget>:
+    cols: 3
+    rows: 4
+    Button:
+        id: q
+        background_color: (0, 0, 1)
+        on_press: root.neigh(self, 'q')
+    Button:
+        id: w
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'w')
+    Button:
+        id: e
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'e')
+    Button:
+        id: a
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'a')
+    Button:
+        id: s
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 's')
+    Button:
+        id: d
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'd')
+    Button:
+        id: z
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'z')
+    Button:
+        id: x
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'x')
+    Button:
+        id: c
+        background_color: (0, 0, 1) or (1, 0, 0)
+        on_press: root.neigh(self, 'c')
+    Widget:
+    Button:
+        text: 'restart'
+        on_press: root.start(self)
